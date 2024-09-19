@@ -7,14 +7,19 @@
     text-decoration: none;
 }
 header{
-    position: fixed;
-    right: 0;
-    top: 0;
+    position: center;
     z-index: 0;
-    width: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
-    padding: 33px 9%;
+    gap: 20px;
+    padding: 0px;
     background: transparent;
+}
+ul{
+    display: flex;
+    gap: 2px;
+    padding: 0;
 }
