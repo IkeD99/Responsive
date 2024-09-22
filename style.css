@@ -130,7 +130,7 @@ section{
     transition: all .50s ease;
 }
 .icons i:hover{
-    color: #4d9559;
+    color: #2D1F2B;
     transform: translateY(-5px);
 }
 .scroll-down{
